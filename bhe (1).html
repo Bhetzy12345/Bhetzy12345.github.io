@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biografía Profesional - Bhetzy Fernanda Villegas Campos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .card {
+      background-color: #ffffffee;
+      border-radius: 15px;
+    }
+
+    .accordion-button {
+      background-color: #f8bbd0;
+      color: #4a148c;
+      font-weight: bold;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #f48fb1;
+      color: #ffffff;
+    }
+
+    .accordion-body {
+      background-color: #fce4ec;
+    }
+
+    h1,
+    h4 {
+      color: #880e4f;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .custom-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container py-5">
+    <div class="card shadow-lg">
+      <div class="card-body text-center">
+        <h1 class="custom-title mb-3">Biografía Profesional</h1>
+        <h4>Bhetzy Fernanda Villegas Campos</h4>
+        <p>9 de agosto de 2007 | México</p>
+        <p>Alegre • Comprometida • Creativa • Líder</p>
+        <p>Mi vida ha sido un recorrido de aprendizaje, esfuerzo, valores y metas claras. Cada etapa me ha formado como la persona que soy hoy, con sueños que sigo construyendo día con día.</p>
+      </div>
+    </div>
+
+    <div class="accordion mt-4" id="accordionBiography">
+
+      <!-- Formación Académica -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            📚 Formación Académica
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionBiography">
+          <div class="accordion-body">
+            <ul>
+              <li><strong>Kínder:</strong> Juan Jacobo Rousseau (Primer acercamiento al aprendizaje formal)</li>
+              <li><strong>Primaria:</strong> Alfredo V. Bonfil Pinto (Participación en obras escolares y actividades deportivas)</li>
+              <li><strong>Secundaria:</strong> Técnica No. 66 (Grupo de teatro, recitales de poesía, taller de lectura dramatizada)</li>
+              <li><strong>Bachillerato:</strong> EPO 4 (Representante de grupo, organizadora de ferias escolares)</li>
+            </ul>
+            <p><strong>Reconocimientos:</strong> Diploma por excelencia académica en secundaria, primer lugar en oratoria, mención especial en concurso estatal de escritura creativa.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Familia -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            👨‍👩‍👧‍👦 Mi Familia
+          </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionBiography">
+          <div class="accordion-body">
+            <ul>
+              <li><strong>Hermana mayor:</strong> Isabel Villegas (Ejemplo de responsabilidad y empatía)</li>
+              <li><strong>Hermano menor:</strong> Jesús Villegas (Mi motivación diaria para ser mejor)</li>
+              <li><strong>Padres:</strong> Joel Villegas y Elisa Campos (Inspiración por su amor y esfuerzo)</li>
+            </ul>
+            <p><strong>Valores familiares:</strong> Respeto, unidad, esfuerzo y honestidad. Nos gusta hacer caminatas, juegos de mesa y noches familiares de películas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Habilidades e Intereses -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            ✨ Habilidades e Intereses
+          </button>
+        </h2>
+        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionBiography">
+          <div class="accordion-body">
+            <ul>
+              <li><strong>Habilidades:</strong> Comunicación efectiva, liderazgo, paciencia, creatividad.</li>
+              <li><strong>Idiomas:</strong> Español (nativo), Inglés (intermedio).</li>
+              <li><strong>Intereses:</strong> Enseñar a niños, literatura infantil, dibujo artístico, desarrollo de juegos educativos.</li>
+              <li><strong>Actividades extracurriculares:</strong> Taller de lectura, brigadas ambientales, festivales escolares.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sueños y Metas -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading4">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            🎯 Sueños y Metas
+          </button>
+        </h2>
+        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionBiography">
+          <div class="accordion-body">
+            <p>Desde pequeña he tenido el sueño de ser <strong>maestra de kínder</strong> y ayudar a los niños a descubrir el amor por el conocimiento.</p>
+            <ul>
+              <li><strong>Meta a corto plazo:</strong> Terminar mi bachillerato con excelencia.</li>
+              <li><strong>Meta a mediano plazo:</strong> Ingresar a la universidad para estudiar Educación Preescolar.</li>
+              <li><strong>Meta a largo plazo:</strong> Fundar una escuela propia basada en creatividad y valores.</li>
+            </ul>
+            <p>Me inspira la labor de educadoras como María Montessori, porque creo en un aprendizaje respetuoso con el ritmo de cada niño.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reflexión Personal -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            💬 Reflexión Personal
+          </button>
+        </h2>
+        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionBiography">
+          <div class="accordion-body">
+            <blockquote class="blockquote">
+              <p class="mb-0">“Educar no es llenar una mente, es encender una chispa que ilumine toda la vida”.</p>
+              <footer class="blockquote-footer">Bhetzy Fernanda</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
